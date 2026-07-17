@@ -1,0 +1,57 @@
+import {
+  GiWeightLiftingUp,
+  GiMuscleUp,
+  GiFruitBowl,
+  GiBiceps,
+  GiWhistle,
+  GiCrossedSwords,
+  GiSprint,
+  GiHeartBeats,
+  GiLotus,
+  GiBodyBalance,
+} from "react-icons/gi";
+import {
+  BsPiggyBank,
+  BsDropletHalf,
+  BsLock,
+  BsDoorOpen,
+  BsCarFront,
+  BsSnow2,
+  BsWifi,
+  BsGenderFemale,
+  BsPeopleFill,
+  BsCalendar3,
+  BsPersonBadgeFill,
+  BsTrophyFill,
+  BsGraphUpArrow,
+} from "react-icons/bs";
+import { FaPersonCane } from "react-icons/fa6";
+
+export const ICONS = {
+  GiWeightLiftingUp,
+  GiMuscleUp,
+  GiFruitBowl,
+  GiBiceps,
+  GiWhistle,
+  GiCrossedSwords,
+  GiSprint,
+  GiHeartBeats,
+  GiLotus,
+  GiBodyBalance,
+  BsPiggyBank,
+  BsDropletHalf,
+  BsLock,
+  BsDoorOpen,
+  BsCarFront,
+  BsSnow2,
+  BsWifi,
+  BsGenderFemale,
+  FaPersonCane,
+  BsPeopleFill,
+  BsCalendar3,
+  BsPersonBadgeFill,
+  BsTrophyFill,
+  BsGraphUpArrow,
+};
+
+export const getIcon = (name) => ICONS[name] ?? GiWeightLiftingUp;
