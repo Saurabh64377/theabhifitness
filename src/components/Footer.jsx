@@ -33,7 +33,7 @@ export default function Footer() {
                 <BsInstagram />
               </a>
               <a
-                href={`https://wa.me/${BRAND.phoneRaw}`}
+                href={`https://wa.me/${BRAND.whatsappRaw}`}
                 target="_blank"
                 rel="noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-line text-white transition-colors hover:border-primary hover:text-primary"

@@ -25,7 +25,7 @@ export default function About() {
               <div className="overflow-hidden rounded-[2rem] border border-line">
                 <img
                   src={ABOUT_IMAGE}
-                  alt="Inside The Tiger Fitness training floor"
+                  alt="Inside THE ABHI FITNESS training floor"
                   className="h-[480px] w-full object-cover"
                   loading="lazy"
                 />
@@ -37,7 +37,7 @@ export default function About() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="glass absolute -bottom-8 -right-4 rounded-2xl p-5 shadow-2xl sm:-right-10"
               >
-                <p className="font-display text-4xl text-primary">7+</p>
+                <p className="font-display text-4xl text-primary">4+</p>
                 <p className="text-xs uppercase tracking-[0.2em] text-muted">Years Of Excellence</p>
               </motion.div>
               <div className="absolute -left-6 -top-6 h-24 w-24 rounded-full bg-primary/25 blur-3xl" />
@@ -47,7 +47,7 @@ export default function About() {
           <div>
             <SectionHeading
               align="left"
-              eyebrow="About The Tiger Fitness"
+              eyebrow="About THE ABHI FITNESS"
               title="A Training Ground Built For"
               highlight="Real Results"
               className="mx-0"
@@ -55,7 +55,7 @@ export default function About() {
 
             <Reveal direction="up" delay={0.15}>
               <p className="mt-6 text-base leading-relaxed text-muted">
-                We built The Tiger Fitness on one belief — everyone has a stronger version of
+                We built THE ABHI FITNESS on one belief — everyone has a stronger version of
                 themselves waiting to be unlocked. From your first session to your hundredth,
                 every program here is designed around your goals, tracked with real progress, and
                 backed by coaches who care about your outcome, not just your check-in.

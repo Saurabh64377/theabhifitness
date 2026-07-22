@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
           eyebrow="Why Choose Us"
           title="Everything You Need To"
           highlight="Train Like A Pro"
-          subtitle="From elite coaching to premium amenities, every detail at The Tiger Fitness is designed to keep you consistent, comfortable, and progressing."
+          subtitle="From elite coaching to premium amenities, every detail at THE ABHI FITNESS is designed to keep you consistent, comfortable, and progressing."
         />
 
         <StaggerGroup className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">

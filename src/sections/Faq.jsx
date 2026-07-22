@@ -16,7 +16,7 @@ export default function Faq() {
           eyebrow="FAQ"
           title="Got Questions?"
           highlight="We've Got Answers"
-          subtitle="Everything you need to know before starting your journey at The Tiger Fitness."
+          subtitle="Everything you need to know before starting your journey at THE ABHI FITNESS."
         />
 
         <div className="mt-12 space-y-4">
@@ -64,7 +64,7 @@ export default function Faq() {
 
         <Reveal direction="up" className="mt-12 flex flex-col items-center justify-center gap-4 rounded-2xl border border-line bg-card/40 p-8 text-center">
           <p className="text-sm text-muted">Still have questions? Our team is happy to help.</p>
-          <Button as="a" href={`https://wa.me/${BRAND.phoneRaw}`} target="_blank" rel="noreferrer" variant="outline">
+          <Button as="a" href={`https://wa.me/${BRAND.whatsappRaw}`} target="_blank" rel="noreferrer" variant="outline">
             Chat With Us On WhatsApp
           </Button>
         </Reveal>

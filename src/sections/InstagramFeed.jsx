@@ -32,7 +32,7 @@ export default function InstagramFeed() {
               >
                 <img
                   src={post.src}
-                  alt="Instagram post from The Tiger Fitness"
+                  alt="Instagram post from THE ABHI FITNESS"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                   loading="lazy"
                 />
@@ -49,7 +49,7 @@ export default function InstagramFeed() {
 
         <div className="mt-10 flex justify-center">
           <Button as="a" href={BRAND.instagram} target="_blank" rel="noreferrer" icon={BsInstagram} variant="outline">
-            @thetigerfitness
+            @the_abhiiiifitness
           </Button>
         </div>
       </div>

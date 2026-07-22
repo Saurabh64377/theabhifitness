@@ -10,7 +10,7 @@ export default function LocationMap() {
         <div className="grid gap-8 rounded-3xl border border-line bg-card/40 p-4 lg:grid-cols-5 lg:p-6">
           <Reveal direction="left" className="overflow-hidden rounded-2xl lg:col-span-3">
             <iframe
-              title="The Tiger Fitness location"
+              title="THE ABHI FITNESS location"
               src={BRAND.mapEmbedUrl}
               className="h-80 w-full grayscale-[40%] contrast-125 lg:h-full lg:min-h-[420px]"
               style={{ border: 0 }}
@@ -22,7 +22,7 @@ export default function LocationMap() {
           <Reveal direction="right" delay={0.1} className="flex flex-col justify-center gap-6 p-4 lg:col-span-2 lg:p-6">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Find Us</span>
-              <h3 className="font-display mt-2 text-3xl uppercase tracking-wide">Visit The Tiger Fitness</h3>
+              <h3 className="font-display mt-2 text-3xl uppercase tracking-wide">Visit THE ABHI FITNESS</h3>
             </div>
             <div className="flex items-start gap-3 text-sm text-muted">
               <BsGeoAltFill className="mt-0.5 shrink-0 text-primary" />
@@ -42,7 +42,7 @@ export default function LocationMap() {
               <BsTelephoneFill className="shrink-0 text-primary" />
               <a href={`tel:${BRAND.phoneRaw}`} className="text-white/85 hover:text-primary">{BRAND.phone}</a>
             </div>
-            <Button as="a" href={`https://wa.me/${BRAND.phoneRaw}`} target="_blank" rel="noreferrer" className="w-fit">
+            <Button as="a" href={`https://wa.me/${BRAND.whatsappRaw}`} target="_blank" rel="noreferrer" className="w-fit">
               Get Directions
             </Button>
           </Reveal>

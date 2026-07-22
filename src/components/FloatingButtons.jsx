@@ -44,7 +44,7 @@ export default function FloatingButtons() {
       </motion.a>
 
       <motion.a
-        href={`https://wa.me/${BRAND.phoneRaw}?text=Hi! I'd like to know more about ${BRAND.name} membership.`}
+        href={`https://wa.me/${BRAND.whatsappRaw}?text=Hi! I'd like to know more about ${BRAND.name} membership.`}
         target="_blank"
         rel="noreferrer"
         whileHover={{ y: -4, scale: 1.05 }}

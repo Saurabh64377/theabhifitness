@@ -21,7 +21,7 @@ export default function Gallery() {
           eyebrow="Gym Gallery"
           title="Take A Look"
           highlight="Inside The Tiger"
-          subtitle="A premium training floor built with world-class equipment and an atmosphere that keeps you coming back."
+          subtitle="A premium training floor built with world-class equipment and an atmosphere that keeps you coming back for more."
         />
 
         <StaggerGroup className="mt-14 columns-2 gap-4 sm:columns-3 [&>*]:mb-4">
@@ -33,7 +33,7 @@ export default function Gallery() {
               >
                 <img
                   src={src}
-                  alt={`The Tiger Fitness gallery ${i + 1}`}
+                  alt={`THE ABHI FITNESS gallery ${i + 1}`}
                   className="w-full object-cover transition-transform duration-700 group-hover:scale-110"
                   style={{ aspectRatio: i % 3 === 0 ? "3/4" : "4/5" }}
                   loading="lazy"

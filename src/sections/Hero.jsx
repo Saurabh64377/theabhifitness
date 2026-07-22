@@ -83,9 +83,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-display mt-6 text-6xl uppercase leading-[0.95] tracking-wide sm:text-7xl md:text-8xl"
+            className="font-display mt-6 text-4xl uppercase leading-[0.92] tracking-wide sm:text-5xl md:text-7xl lg:text-8xl"
           >
-            Unleash <span className="text-gradient">The Beast</span> In You
+            Transform <span className="text-gradient">Your Body</span>, Transform Your Life.
           </motion.h1>
 
           <motion.p
@@ -119,7 +119,7 @@ export default function Hero() {
               <BsTelephoneFill />
             </a>
             <a
-              href={`https://wa.me/${BRAND.phoneRaw}`}
+              href={`https://wa.me/${BRAND.whatsappRaw}`}
               target="_blank"
               rel="noreferrer"
               className="flex h-[52px] w-[52px] items-center justify-center rounded-full border border-line text-white transition-colors hover:border-[#25D366] hover:text-[#25D366]"

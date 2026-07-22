@@ -15,7 +15,7 @@ export default function Trainers() {
           eyebrow="Meet Your Coaches"
           title="Trained By The"
           highlight="Best In The Game"
-          subtitle="Certified, experienced, and genuinely invested in your progress — our coaching team is what sets The Tiger Fitness apart."
+          subtitle="Certified, experienced, and genuinely invested in your progress — our coaching team is what sets THE ABHI FITNESS apart."
         />
       </div>
 
@@ -28,11 +28,12 @@ export default function Trainers() {
           autoplay={{ delay: 3800, disableOnInteraction: false }}
           pagination={{ clickable: true, el: ".trainer-pagination" }}
           breakpoints={{
-            640: { slidesPerView: 2.1 },
+            480: { slidesPerView: 1.5 },
+            640: { slidesPerView: 2.2 },
             1024: { slidesPerView: 3.2 },
             1280: { slidesPerView: 4 },
           }}
-          className="!px-5 sm:!px-8"
+          className="!px-4 sm:!px-8"
         >
           {TRAINERS.map((trainer) => (
             <SwiperSlide key={trainer.name} className="!h-auto pb-4">

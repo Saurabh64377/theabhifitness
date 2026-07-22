@@ -24,6 +24,7 @@ import {
   BsPersonBadgeFill,
   BsTrophyFill,
   BsGraphUpArrow,
+  BsGearFill,
 } from "react-icons/bs";
 import { FaPersonCane } from "react-icons/fa6";
 
@@ -52,6 +53,7 @@ export const ICONS = {
   BsPersonBadgeFill,
   BsTrophyFill,
   BsGraphUpArrow,
+  BsGearFill,
 };
 
 export const getIcon = (name) => ICONS[name] ?? GiWeightLiftingUp;

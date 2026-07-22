@@ -164,7 +164,7 @@ export default function Contact() {
                 <Button as="a" href={`tel:${BRAND.phoneRaw}`} variant="outline" className="flex-1">
                   Call Now
                 </Button>
-                <Button as="a" href={`https://wa.me/${BRAND.phoneRaw}`} target="_blank" rel="noreferrer" className="flex-1">
+                <Button as="a" href={`https://wa.me/${BRAND.whatsappRaw}`} target="_blank" rel="noreferrer" className="flex-1">
                   WhatsApp
                 </Button>
               </div>
