@@ -103,7 +103,7 @@ export default function Navbar() {
             transition={{ duration: 0.35, ease: "easeInOut" }}
             className="overflow-hidden px-5 lg:hidden"
           >
-            <div className="glass mt-2 flex flex-col gap-1 rounded-2xl p-4">
+            <div className="mt-2 flex flex-col gap-1 rounded-2xl border border-line bg-card/95 backdrop-blur-xl p-4">
               {NAV_LINKS.map((link) => (
                 <a
                   key={link.href}
