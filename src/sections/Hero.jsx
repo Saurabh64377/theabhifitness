@@ -111,24 +111,11 @@ export default function Hero() {
             <Button size="lg" variant="outline" onClick={() => openTrial()}>
               Book Free Trial
             </Button>
-            <a
-              href={`tel:${BRAND.phoneRaw}`}
-              className="flex h-[52px] w-[52px] items-center justify-center rounded-full border border-line text-white transition-colors hover:border-primary hover:text-primary"
-              aria-label="Call now"
-            >
-              <BsTelephoneFill />
-            </a>
-            <a
-              href={`https://wa.me/${BRAND.whatsappRaw}`}
-              target="_blank"
-              rel="noreferrer"
-              className="flex h-[52px] w-[52px] items-center justify-center rounded-full border border-line text-white transition-colors hover:border-[#25D366] hover:text-[#25D366]"
-              aria-label="WhatsApp"
-            >
-              <BsWhatsapp />
-            </a>
-          </motion.div>
 
+            
+
+          </motion.div>
+{/* 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -141,7 +128,7 @@ export default function Hero() {
             <span className="flex items-center gap-2">
               <BsClockFill className="text-primary" /> Mon–Sat 5:30 AM – 11 PM
             </span>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         <motion.div
